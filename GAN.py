@@ -297,7 +297,7 @@ class GAN:
 
 
 def main():
-    dataset_path = './dataset/'
+    dataset_path = './gundataset/'
     batch_size = 64
     image_shape = (64, 64, 3)
     epochs = 45
