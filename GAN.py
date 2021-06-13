@@ -300,7 +300,7 @@ def main():
     dataset_path = './gundataset/'
     batch_size = 64
     image_shape = (64, 64, 3)
-    epochs = 45
+    epochs = 300
     gan = GAN(dataset_path, image_shape, batch_size, epochs)
     gan.train_model()
 
